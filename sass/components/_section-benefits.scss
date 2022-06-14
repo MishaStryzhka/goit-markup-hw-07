@@ -6,6 +6,10 @@
     @extend %container;
 }
 
+.benefits__section-title {
+    @extend %section-title;
+}
+
 .benefits__list {
     @extend %list;
 
@@ -44,6 +48,7 @@
 
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
